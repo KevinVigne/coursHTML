@@ -10,7 +10,9 @@ header {
 
 nav{
     background-color: gray;
-    height: 30px;
+    height: 50px;
+    margin-bottom: 0;
+    align-content: center;
 }
 
 p{
@@ -21,6 +23,10 @@ footer{
     background-color: silver;
     height: 70px;
     line-height: 70px;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 #conteneur{
@@ -34,7 +40,7 @@ footer{
 }
 
 section{
-    height: 500px;
+    height: 750px;
     margin: 10px;
 }
 
@@ -67,6 +73,7 @@ section{
     width: 49.5%;
     line-height: 122px;
     text-decoration: none;
+    background: rgba(39, 177, 45, 0.678) ;
 }
 .petiteBoite:hover{
     opacity: 0.3;
